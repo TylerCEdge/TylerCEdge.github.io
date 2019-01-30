@@ -245,5 +245,7 @@ form button {
 }
 
 @media screen and (max-width: 640px) {
-    
+    .portfolio-item {
+        width: 100%;
+    }
 }
