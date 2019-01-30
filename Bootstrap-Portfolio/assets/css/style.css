@@ -71,6 +71,46 @@ nav {
     margin-bottom: 30px;
 }
 
+.inline-img {
+    margin: 0 15px 10px 0;
+    border: 3px solid #111;
+}
+
+.portfolio-item:nth-last-of-type(odd) {
+    float: left;
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
+    display: block;
+}
+
+.portfolio-item {
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    height: 250px;
+    border: 1px solid rgb(207, 204, 204);
+}
+
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
 #left-column, #right-column {
     background: white;
     padding: 25px;
@@ -90,7 +130,39 @@ nav {
     border-bottom: 2px solid #ccc;
 }
 
-.inline-img {
-    margin: 0 15px 10px 0;
-    border: 3px solid #111;
+#port1 {
+    background: url('../images/port1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#port2 {
+    background: url('../images/port2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#port3 {
+    background: url('../images/port3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#port4 {
+    background: url('../images/port4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#port5 {
+    background: url('../images/port5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#port6 {
+    background: url('../images/port6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
