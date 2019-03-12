@@ -1,0 +1,28 @@
+body {
+    background: url(../images/trainbackground.png) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+header {
+    padding-bottom: 20px;
+    font-family:Tahoma, sans-serif;
+    line-height:1em;
+    color:#fff9d6;
+    font-size:100px;
+    text-shadow:0px 0px 0 rgb(231,231,231),1px 1px 0 rgb(216,216,216),2px 2px 0 rgb(202,202,202),3px 3px 0 rgb(187,187,187),4px 4px 0 rgb(173,173,173),5px 5px 0 rgb(158,158,158), 6px 6px 0 rgb(144,144,144),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+.spacer {
+    height: 100px;
+}
+
+#content {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    opacity: .8;
+}
