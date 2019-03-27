@@ -1,0 +1,221 @@
+/* Referencing https://www.youtube.com/watch?v=G8BvVVaoM8Q */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Top Nav Bar Styling */
+
+body {
+    background: url('../images/white-waves.png') repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+header {
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    background: #4aaaa5;
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+}
+
+nav {
+    width: 300px;
+    float: right;
+    margin-top: 35px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 2px solid #4aaaa5;
+    text-decoration: none;
+}
+/* CODE TO REMOVE | STYLING FROM RIGHT END OF NAV BAR*/
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #666;
+    border-top: 5px solid #4aaaa5;
+    color: #ccc;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+/* STYLING FOR CONTACT PAGE INPUT BOX*/
+label {
+    font-size: 18px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 300px;
+}
+
+form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 1px solid rgb(4, 87, 119);
+}
+/*END OF INPUT BOX STYLING*/
+.inline-img {
+    float: left;
+    margin: 0 15px 10px 0;
+    border: 3px solid #111;
+}
+/*SETS MARGINS IN PLACE FOR CONTENT ON PAGES*/
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+/*^^^^^^*/
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.portfolio-item {
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    height: 250px;
+    border: 1px solid rgb(207, 204, 204);
+}
+
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+
+}
+/*SPECIFICITY IGNORES FLOAT LEFT TO FLOAT ALL EVENS TO THE RIGHT TO STYLE THE PORTFOLIO BOX CORRECTLY*/
+.portfolio-item:nth-of-type(even) {
+    float: right;
+}
+
+#left-column, #right-column {
+    background: white;
+    padding: 25px;
+    border: 2px groove #ccc;
+}
+
+#left-column {
+    width: 650px;
+    float: left;
+
+}
+
+#left-column h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+#right-column {
+    width: 270px;
+    float: right;
+}
+
+#right-column h3 {
+    font-size: 20px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+#right-column ul {
+    text-align: center;
+}
+
+#right-column ul li {
+    display: inline-block;
+}
+
+#right-column ul li img {
+    width: 60px;
+}
+
+#port1 {
+    background: url('../images/port1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#port2 {
+    background: url('../images/port2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#port3 {
+    background: url('../images/port3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#port4 {
+    background: url('../images/port4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#port5 {
+    background: url('../images/port5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#port6 {
+    background: url('../images/port6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
