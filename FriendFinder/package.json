@@ -1,0 +1,32 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friendfinder app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "json-parser": "^1.1.5",
+    "path": "^0.12.7",
+    "urlencoded-parser": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerCEdge/FriendFinder.git"
+  },
+  "keywords": [
+    "friendfinder",
+    "bootcamp"
+  ],
+  "author": "Tyler Edge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerCEdge/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/TylerCEdge/FriendFinder#readme"
+}
