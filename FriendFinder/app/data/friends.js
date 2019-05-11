@@ -1,0 +1,86 @@
+var friends = [
+
+{
+    "name":"Ahmed",
+    "photo":"http://www.quickmeme.com/img/fa/fa0a7bf1178be547b57f20671f6046c66501a91871cff172e91f657960ec13fd.jpg",
+    "scores":[
+        "5",
+        "1",
+        "4",
+        "4",
+        "5",
+        "1",
+        "2",
+        "5",
+        "4",
+        "1"
+      ]
+  },
+  {
+    "name":"Archer",
+    "photo":"http://www.quickmeme.com/img/fa/fa0a7bf1178be547b57f20671f6046c66501a91871cff172e91f657960ec13fd.jpg",
+    "scores":[
+        "3",
+        "2",
+        "1",
+        "5",
+        "3",
+        "4",
+        "3",
+        "1",
+        "3",
+        "2"
+      ]
+  },
+  {
+    "name":"Rick",
+    "photo":"http://www.quickmeme.com/img/fa/fa0a7bf1178be547b57f20671f6046c66501a91871cff172e91f657960ec13fd.jpg",
+    "scores":[
+        "5",
+        "5",
+        "4",
+        "4",
+        "1",
+        "1",
+        "3",
+        "4",
+        "1",
+        "4"
+      ]
+  },
+  {
+    "name":"Morty",
+    "photo":"http://www.quickmeme.com/img/fa/fa0a7bf1178be547b57f20671f6046c66501a91871cff172e91f657960ec13fd.jpg",
+    "scores":[
+        "2",
+        "2",
+        "1",
+        "5",
+        "1",
+        "3",
+        "5",
+        "2",
+        "1",
+        "5"
+      ]
+  },
+  {
+    "name":"Peter",
+    "photo":"http://www.quickmeme.com/img/fa/fa0a7bf1178be547b57f20671f6046c66501a91871cff172e91f657960ec13fd.jpg",
+    "scores":[
+        "2",
+        "2",
+        "1",
+        "5",
+        "3",
+        "4",
+        "1",
+        "3",
+        "2",
+        "4"
+      ]
+  },
+]
+
+module.exports = friends;
+  
