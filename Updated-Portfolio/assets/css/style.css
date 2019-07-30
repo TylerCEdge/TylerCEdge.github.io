@@ -184,38 +184,38 @@ form button {
 }
 
 #port1 {
-    background: url('../images/port1.jpg');
+    background: url('../images/clickygame.png');
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 #port2 {
-    background: url('../images/port2.jpg');
+    background: url('../images/gameon.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #port3 {
-    background: url('../images/port3.jpg');
+    background: url('../images/scraper.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #port4 {
-    background: url('../images/port4.jpg');
+    background: url('../images/friendfinder.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #port5 {
-    background: url('../images/port5.jpg');
+    background: url('../images/burger.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #port6 {
-    background: url('../images/port6.jpg');
+    background: url('../images/trivia.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
